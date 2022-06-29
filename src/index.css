@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Playfair+Display&display=swap');
+
+* {
+  font-family: 'Playfair Display', serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +13,50 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.checked {
+  color: orange;
+}
+
+.boxResults {
+  padding: 10px;
+}
+
+.image {
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px grey;
+}
+
+#paginate {
+  margin: 2rem;
+  padding: 10px;
+}
+
+#paginate ul li a {
+  cursor: pointer;
+}
+
+.roomInfo {
+  padding: 10px;
+}
+
+.help {
+  padding: 10px;
+}
+
+#helptitle {
+  text-align: center;
+  padding: 10px;
+  margin: 1rem;
+}
+
+#helprow {
+  margin: 2rem;
+  padding: 10px;
+}
+
+#helprow h3 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
