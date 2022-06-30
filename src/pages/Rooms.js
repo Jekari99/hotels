@@ -24,7 +24,7 @@ function Rooms(props) {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '8be5da7381msh54cea7aa2a8e3c7p1ec4b8jsn98eb8cca9523',
+                'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
                 'X-RapidAPI-Host': 'airbnb13.p.rapidapi.com'
             }
         };
@@ -97,6 +97,7 @@ function Rooms(props) {
             <div className="container-fluid">
                 <h2 style={{ width: '100%', textAlign: 'center', borderBottom: '1px solid grey', lineHeight: '0.1em', margin: '10px 0 20px' }}><span style={{ background: '#fff', padding: '0 10px' }}>Rooms</span></h2>
             </div>
+            <p></p>
             <div className="row" id="results" style={{ margin: '2rem', padding: '10px', justifyContent: 'center', textAlign: 'center' }}></div>
         </div >
     );
