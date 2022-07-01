@@ -17,6 +17,7 @@ function Rooms(props) {
         e.preventDefault();
         let results = [];
         const root = ReactDOM.createRoot(document.getElementById("results"));
+        let apikey = process.env.REACT_APP_RAPID_API_KEY;
 
 
         const url = `https://airbnb13.p.rapidapi.com/search-location?location=${location}&checkin=${checkin}&checkout=${checkout}&adults=${adults}&children=${children}&infants=${infants}&page=1+2`;
@@ -24,7 +25,7 @@ function Rooms(props) {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+                'X-RapidAPI-Key': apikey,
                 'X-RapidAPI-Host': 'airbnb13.p.rapidapi.com'
             }
         };
