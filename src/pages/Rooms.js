@@ -2,7 +2,6 @@ import { useState } from "react";
 import ReactDOM from "react-dom/client";
 import Paginate from "../components/Paginate";
 import React from "react";
-import env from "react-dotenv";
 
 function Rooms(props) {
 
@@ -25,7 +24,7 @@ function Rooms(props) {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': env.REACT_APP_RAPID_API_KEY,
+                'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
                 'X-RapidAPI-Host': 'airbnb13.p.rapidapi.com'
             }
         };
