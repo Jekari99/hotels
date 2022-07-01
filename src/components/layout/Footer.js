@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <div>
-            <footer className="page-footer font-small bg-dark footer" style={{ color: 'white' }}>
+            <footer className="page-footer font-small bg-secondary bg-gradient footer" style={{ boxShadow: "5px 3px 3px 5px #595959" }}>
                 <div className="container text-center text-md-left">
                     <div className="row">
                         <div className="col-md-3 mx-auto">

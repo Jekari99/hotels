@@ -13,7 +13,7 @@ function Home() {
                 <div className="col-lg-5 p-5" id="title" style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', transform: 'translate(0, 20%)' }}>
                     <h1 style={{ fontFamily: 'Merriweather, serif' }}>Hotels</h1>
                     <h3>A variety of rooms at your service</h3>
-                    <button className="btn btn-dark"><Link to="/rooms" style={{ color: "white" }}>Get Started</Link></button>
+                    <button className="btn btn-secondary"><Link to="/rooms" style={{ color: "white", textDecoration: "none" }}>Get Started</Link></button>
                 </div>
             </div>
             <br />

@@ -13,10 +13,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.checked {
-  color: orange;
-}
-
 .boxResults {
   padding: 10px;
 }

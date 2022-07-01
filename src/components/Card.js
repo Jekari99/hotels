@@ -10,7 +10,7 @@ function Card(props) {
                 <div className="card-body">
                     <h5 className="card-title">{props.name}</h5>
                     <p>{"$" + props.price}</p>
-                    <button className="btn btn-light" data-toggle="modal" type="button" data-target={"#" + props.userId} style={{ padding: "5px", margin: "5px" }}>Show More Info</button>
+                    <button className="btn btn-secondary" data-toggle="modal" type="button" data-target={"#" + props.userId} style={{ padding: "5px", margin: "5px" }}>Show More Info</button>
                     <a href={props.booking} className="btn btn-dark" rel="noopener noreferrer" target="_blank" style={{ padding: "5px", margin: "5px" }}>Book Room</a>
 
                 </div>

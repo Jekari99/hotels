@@ -10,7 +10,7 @@ function Featured(props) {
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
                 <p>Rating: {props.rate} / 5</p>
-                <a href={props.booklink} className="btn btn-dark" rel="noopener noreferrer" target="_blank">Book Room</a>
+                <a href={props.booklink} className="btn btn-secondary" rel="noopener noreferrer" target="_blank">Book Room</a>
             </div>
 
         </div>
