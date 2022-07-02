@@ -13,6 +13,7 @@ function Rooms(props) {
     const [infants, setInfants] = useState(0);
 
 
+
     function searchHotels(e) {
         e.preventDefault();
         let results = [];

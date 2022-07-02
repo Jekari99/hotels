@@ -17,6 +17,7 @@ function Modal(props) {
                         <h5 className="roomInfo">Room Info</h5>
                         <ul className="list-group" id="list">
                             <li className="list-group-item" id="city">{"City: " + props.address}</li>
+                            <li className="list-group-item" id="price">{"Total Price: $" + props.price}</li>
                             <li className="list-group-item" id="bedrooms">{props.bedrooms + " Bedrooms"}</li>
                             <li className="list-group-item" id="bathrooms">{props.bathrooms + " Bathrooms"}</li>
                             <li className="list-group-item" id="beds">{props.beds + " Beds"}</li>

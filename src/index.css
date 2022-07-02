@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@700&family=Merriweather:ital@1&family=Playfair+Display&display=swap');
 
 * {
   font-family: 'Playfair Display', serif;
@@ -55,4 +55,14 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+.list-group-item,
+.roomInfo,
+.modal-title {
+  font-family: 'Gentium Book Plus', serif;
+}
+
+.roomInfo {
+  text-decoration: underline;
 }
