@@ -20,7 +20,6 @@ function Rooms(props) {
         const root = ReactDOM.createRoot(document.getElementById("results"));
         let apikey = process.env.REACT_APP_RAPID_API_KEY;
 
-
         const url = `https://airbnb13.p.rapidapi.com/search-location?location=${location}&checkin=${checkin}&checkout=${checkout}&adults=${adults}&children=${children}&infants=${infants}&page=1+2`;
 
         const options = {
@@ -96,6 +95,7 @@ function Rooms(props) {
                     </div>
                 </div>
             </div>
+
             <div className="container-fluid">
                 <h2 style={{ width: '100%', textAlign: 'center', borderBottom: '1px solid grey', lineHeight: '0.1em', margin: '10px 0 20px' }}><span style={{ background: '#fff', padding: '0 10px' }}>Rooms</span></h2>
             </div>
