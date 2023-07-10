@@ -6,12 +6,11 @@ import React from "react";
 function Rooms(props) {
 
     const date = new Date();
-    let day = date.getDate();
-    console.log(day);
+    let currDate = date.toJSON();
 
     const [location, setLocation] = useState("");
-    const [checkin, setCheckin] = useState("2022-07-21");
-    const [checkout, setCheckout] = useState("2022-07-23");
+    const [checkin, setCheckin] = useState(currDate.slice(0, 10));
+    const [checkout, setCheckout] = useState(currDate.slice(0, 10));
     const [adults, setAdults] = useState(1);
     const [children, setChildren] = useState(0);
     const [infants, setInfants] = useState(0);
