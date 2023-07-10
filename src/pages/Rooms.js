@@ -5,6 +5,10 @@ import React from "react";
 
 function Rooms(props) {
 
+    const date = new Date();
+    let day = date.getDate();
+    console.log(day);
+
     const [location, setLocation] = useState("");
     const [checkin, setCheckin] = useState("2022-07-21");
     const [checkout, setCheckout] = useState("2022-07-23");
