@@ -56,7 +56,7 @@ function Rooms(props) {
                             <div className="form-group col-lg-12">
                                 <label htmlFor="location" className="col-sm-12 control-label">Location</label>
                                 <div className="col-sm-12">
-                                    <input type="text" className="form-control" id="location" placeholder="Location" value={location} onChange={(e) => setLocation(e.target.value)} />
+                                    <input type="text" className="form-control" id="location" placeholder="Location" value={location} onChange={(e) => setLocation(e.target.value)} required />
                                 </div>
                             </div>
                             <div className="form-group col-lg-6 col-sm-6 ">
