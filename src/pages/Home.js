@@ -1,6 +1,7 @@
 import Featured from "../components/Featured";
 import { Link } from "react-router-dom";
 
+
 function Home() {
     return (
         <div>
@@ -20,7 +21,7 @@ function Home() {
             <br />
             <br />
             <div className="container-fluid" id="featured" style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-                <h2 style={{ width: '100%', textAlign: 'center', borderBottom: '1px solid grey', lineHeight: '0.1em', margin: '10px 0 20px' }}><span style={{ background: '#fff', padding: '0 10px' }}>Some Featured Places</span></h2>
+                <h2 style={{ width: '100%', textAlign: 'center', borderBottom: '1px solid grey', lineHeight: '0.1em', margin: '10px 0 20px' }}><span id="featured-places" style={{ background: '#fff', padding: '0 10px', fontSize: 'clamp(1rem, 2.5vw, 2rem)' }}>Some Featured Places</span></h2>
             </div>
 
             <div className="row" style={{ margin: '2rem', padding: '10px', justifyContent: 'center', textAlign: 'center' }}>
@@ -71,7 +72,7 @@ function Home() {
             <br />
             <br />
 
-        </div>
+        </div >
     );
 }
 export default Home;
