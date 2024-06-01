@@ -7,9 +7,9 @@ function Footer() {
                         <div className="col-md-3 mx-auto">
                             <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Hotels</h5>
                             <ul className="list-unstyled">
-                                <li>
+                                {/* <li>
                                     Made by Jekari Rawls
-                                </li>
+                                </li> */}
                                 <li>
                                     Bootstrap
                                 </li>
@@ -30,7 +30,7 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <hr className="clearfix w-100 d-md-none" />
+                        {/* <hr className="clearfix w-100 d-md-none" />
                         <div className="col-md-3 mx-auto">
                             <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Profiles</h5>
                             <ul className="list-unstyled">
@@ -41,7 +41,7 @@ function Footer() {
                                     <a href="https://github.com/Jekari99">GitHub</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="footer-copyright text-center py-3">© 2020 Copyright:
